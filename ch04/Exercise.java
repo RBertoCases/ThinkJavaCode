@@ -12,7 +12,10 @@ public class Exercise {
         System.out.print("I ");
         baffle();
     }
-
+    /**
+     * When baffle() is invoked, prints "wug"
+     * and calls ping()
+     */
     public static void baffle() {
         System.out.print("wug");
         ping();
