@@ -1,9 +1,10 @@
 public class Exercise {
     
+    
     /**
-     * Calls baffle()
-     * and then prints "You wugga "
-     * then calls baffle() again.
+     * when zoop() invoked, calls baffle()
+     * and then prints "You Wugga "
+     * and calls baffle() again. 
      */
     public static void zoop() {
         baffle();
@@ -12,6 +13,7 @@ public class Exercise {
     }
     
     /**
+     * @param args
      * prints "No, I "
      * calls zoop()
      * prints "I "
@@ -22,6 +24,7 @@ public class Exercise {
         zoop();
         System.out.print("I ");
         baffle();
+        zool(11, "Mishu", "Sand Hollow");
     }
     
     /**
@@ -38,6 +41,16 @@ public class Exercise {
      */
     public static void ping() {
         System.out.println(".");
+    }
+    
+    /**
+     *
+     * @param age
+     * @param pet
+     * @param street
+     */
+    public static void zool(int age, String pet, String street) {
+        System.out.print ("\n" + age + pet + street);
     }
 
 }
