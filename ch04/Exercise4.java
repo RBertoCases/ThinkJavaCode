@@ -1,9 +1,9 @@
-public class Exercise {
+public class Exercise4 {
     
     /**
-     * Calls baffle()
-     * and then prints "You wugga "
-     * then calls baffle() again.
+     * when zoop() invoked, calls baffle()
+     * and then prints "You Wugga "
+     * and calls baffle() again. 
      */
     public static void zoop() {
         baffle();
@@ -12,6 +12,7 @@ public class Exercise {
     }
     
     /**
+     * @param args
      * prints "No, I "
      * calls zoop()
      * prints "I "
